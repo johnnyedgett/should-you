@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react'
-import queryString from 'query-string'
+import React from 'react'
 import { withStyles, Grid, Typography } from '@material-ui/core';
 
 const styles = {

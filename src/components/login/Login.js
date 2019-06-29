@@ -3,12 +3,16 @@ import { Paper } from '@material-ui/core';
 import { withStyles } from '@material-ui/styles';
 
 const styles = {
-    
+    root: {
+        display: 'flex'
+    }
 }
+
 function Login(props){
     const { classes } = props
     return (
-        <div>
+        <div
+            className={classes.root}>
             <Paper>
                 login nerd.
             </Paper>
